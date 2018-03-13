@@ -1,0 +1,176 @@
+{
+  "consultar-perfil": [
+    {
+      "id-user": 1,
+      "nome-abreviado": "fGuelfi",
+      "cargo": "agendamento",
+      "senha": false,
+      "status": false
+    },
+    {
+      "id-user": 2,
+      "nome-abreviado": "rSilveira",
+      "cargo": "torre",
+      "senha": true,
+      "status": true
+    },
+    {
+      "id-user": 3,
+      "nome-abreviado": "vSpinellis",
+      "cargo": "tecnico",
+      "senha": true,
+      "status": true
+    }
+  ],
+  "perfil": [
+    {
+      "id-user": 1,
+      "id-empresa": 1,
+      "nome completo": "fabio guelfi",
+      "status": false,
+      "nome abreviado": "fGuelfi",
+      "id-email-login": "fabioguelfiunix@gmail.com",
+      "cargo": "torre lider",
+      "modulos-autorizados": [
+        {
+          "agendamento": false,
+          "almoxarife": true,
+          "controle-acessos": false,
+          "supervisor-tecnico": false,
+          "tecnico": true,
+          "torre": false,
+          "torre-lider": false
+        }
+      ]
+    },
+    {
+      "id-user": 2,
+      "id-empresa": 2,
+      "nome completo": "rodrigo silveira",
+      "status": true,
+      "nome abreviado": "rSilveira",
+      "id-email-login": "rSilveira@gmail.com",
+      "cargo": "controle de acesso",
+      "modulos-autorizados": [
+        {
+          "agendamento": true,
+          "almoxarife": false,
+          "controle-acessos": false,
+          "supervisor-tecnico": false,
+          "tecnico": false,
+          "torre": false,
+          "torre-lider": false
+        }
+      ]
+    },
+    {
+      "id-user": 3,
+      "id-empresa": 3,
+      "nome completo": "vinicius spinellis",
+      "status": false,
+      "nome abreviado": "vSpinellis",
+      "id-email-login": "vSpinellis@gmail.com",
+      "cargo": "supervisor tecnico",
+      "modulos-autorizados": [
+        {
+          "agendamento": true,
+          "almoxarife": true,
+          "controle-acessos": true,
+          "supervisor-tecnico": true,
+          "tecnico": true,
+          "torre": true,
+          "torre-lider": true
+        }
+      ]
+    }
+  ],
+  "acessos-log": [
+    {
+      "id-user": 1,
+      "hora": "00:21",
+      "nome": "fabio guelfi",
+      "ip": "201.6.234.242",
+      "tipo": "login",
+      "provedor": "c906eaf2.virtua.com.br"
+    },
+    {
+      "id-user": 2,
+      "hora": "10:11",
+      "nome": "rodrigo silveira",
+      "ip": "207.6.234.242",
+      "tipo": "login",
+      "provedor": "c906eaf2.virtua.com.br"
+    },
+    {
+      "id-user": 3,
+      "hora": "14:23",
+      "nome": "vinicius spinellis",
+      "ip": "201.7.234.777",
+      "tipo": "login",
+      "provedor": "c906eaf2.virtua.com.br"
+    }
+  ],
+  "status-empresa": [
+    {
+      "dados-empresas-pagamento": [
+        {
+          "id-empresa": 1,
+          "nome-empresa": "vivo servicos tercerizados",
+          "dia-vencimento": 17,
+          "vencimento": "30/03/2018",
+          "ultimo-pagamento": "27/02/2018",
+          "valor-mensal": 79.90,
+          "autorizados-modulos": [
+            {
+              "agendamento": 9,
+              "almoxarife": 2,
+              "controle-acessos": 7,
+              "supervisor-tecnico": 2,
+              "tecnico": 17,
+              "torre": 3,
+              "torre-lider": 4
+            }
+          ]
+        },
+        {
+          "id-empresa": 2,
+          "nome-empresa": "sky servicos",
+          "dia-vencimento": 11,
+          "vencimento": "20/03/2018",
+          "ultimo-pagamento": "20/02/2018",
+          "valor-mensal": 79.90,
+          "autorizados-modulos": [
+            {
+              "agendamento": 3,
+              "almoxarife": 5,
+              "controle-acessos": 2,
+              "supervisor-tecnico": 3,
+              "tecnico": 28,
+              "torre": 2,
+              "torre-lider": 1
+            }
+          ]
+        },
+        {
+          "id-empresa": 3,
+          "nome-empresa": "net combo manutencao",
+          "dia-vencimento": 30,
+          "vencimento": "11/04/2018",
+          "ultimo-pagamento": "22/03/2018",
+          "valor-mensal": 79.90,
+          "autorizados-modulos": [
+            {
+              "agendamento": 2,
+              "almoxarife": 4,
+              "controle-acessos": 5,
+              "supervisor-tecnico": 1,
+              "tecnico": 14,
+              "torre": 7,
+              "torre-lider": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
